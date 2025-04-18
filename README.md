@@ -6,7 +6,28 @@ Movie Management System is a web application built using Django along with MySQL
 - Run the following:
 ```
 pip install -r requirements.txt
+```
+# Instruction to Connect to Mysql Database
+* Create a Database in MYSQL
+```
+# sql
+create database movie;
+``` 
+* Terminal Commands
+```
+cd Movie_Management_System
+```
+```
+cd Movie_Management_System
+```
+* Rename databaseconfig_example.py to databaseconfig.py
+* Enter your MYSQL username & password
+# Make Migrations
+```
 python manage.py migrate
+```
+# Run Server
+```
 python manage.py runserver
 ```
 - Then visit [127.0.0.1:8000/](127.0.0.1:8000/)
