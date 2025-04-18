@@ -1,0 +1,10 @@
+# Folders
+env/
+__pycache__/
+.vscode/
+profile_pics/
+
+# Files
+*config.py
+
+/Movie_Management_System/databaseconfig.py
